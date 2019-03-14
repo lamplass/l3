@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab3
+namespace laba2_1
 {
     class Program
     {
@@ -23,7 +23,15 @@ namespace lab3
             char selection = Key.KeyChar;
             switch (selection)
             {
-             
+                case '-':
+                    {
+                        int x = a;
+                        int y = b;
+
+                        int z = x - y;
+                        Console.WriteLine(z);
+                        break;
+                    }
 
             }
             Console.ReadKey();
