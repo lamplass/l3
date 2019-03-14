@@ -43,7 +43,7 @@ namespace laba2_1
                         break;
                     }
 
-            {
+            
                 case '*':
                     {
                         int x = a;
