@@ -16,6 +16,7 @@ namespace lab3
             Console.Write("Enter B: ");
             int b = int.Parse(Console.ReadLine());
 
+            int c = a + b;
 
             Console.ReadKey();
         }
