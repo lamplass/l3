@@ -52,9 +52,7 @@ namespace laba2_1
                         Console.WriteLine(z);
                         break;
                     }
-            }
-
-            {
+            
                 case '/':
                     {
                         int x = a;
